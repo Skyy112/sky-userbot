@@ -7,8 +7,8 @@ from userbot.utils import edit_or_reply, kyy_cmd
 async def usit(e):
     await edit_or_reply(e,
                         f"**Halo {owner} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{cmd}help` Atau Bisa Minta Bantuan Ke:\n"
-                        "\n[Telegram](t.me/IDnyaKosong)"
-                        "\n[Repo](https://github.com/S/Kyy-Userbot)"
+                        "\n[Telegram](t.me/ydhiyaa123)"
+                        "\n[Repo](https://github.com/S/sky-userbot)"
                         "\n[Instagram](instagram.com/rizkyhamdanii16_)")
 
 
