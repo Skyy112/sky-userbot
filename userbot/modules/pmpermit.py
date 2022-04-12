@@ -47,8 +47,8 @@ DEF_UNAPPROVED_MSG = (
     f"**Karena bisa menggangu** {owner} \n"
     f"**Jika Anda Melakukan Spamming, Anda Akan Terblokir Otomatis!**\n"
     "╔═════════════════════╗\n"
-    f"➠ 𝗢𝘄𝗻𝗲𝗿 : {owner} \n"
-    f"➠ 𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗯𝘆 𝗞𝘆𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁\n"
+    f"➠ Owner : {owner} \n"
+    f"➠ Pesan Otomatis by sky-userbot\n"
     "╚═════════════════════╝")
 # =================================================================
 
