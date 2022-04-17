@@ -1,7 +1,7 @@
 {
   "name": "sky-userbot",
   "description": "USERBOT YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
+  "logo": "https://telegra.ph/file/317805b62122526722fd9.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/Skyy112/sky-userbot/main",
-  "telegram": "https://t.me/ydhiyaa123",
-  "success_url": "https://t.me/fuckinghornyid",
+  "telegram": "https://t.me/susumumanis",
+  "success_url": "https://t.me/sirclesexs",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @ydhiyaa123 di telegram",
+      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @susumumanis di telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
