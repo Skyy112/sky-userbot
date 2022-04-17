@@ -119,7 +119,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @NastyProject ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @sirclesexs ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -174,7 +174,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @NastyProject ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @sirclesexs ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
@@ -276,7 +276,7 @@ def remove_plugin(shortname):
 
 async def autopilot():
     LOGS.info("TUNGGU SEBENTAR. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK ANDA")
-    desc = "ᴍʏ ҡʏʏ ʟᴏɢs ɢʀᴏᴜᴘ\n\n Join @NastyProject"
+    desc = "my sky logs group\n\n Join @sirclesexs"
     try:
         grup = await bot(
             CreateChannelRequest(title="ҡʏʏ ʟᴏɢs", about=desc, megagroup=True)
