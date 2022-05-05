@@ -1,4 +1,4 @@
-<h1 align="center">sky-userbot</h1>
+<h1 align="center">𝒔𝒌𝒚 𝒖𝒔𝒆𝒓𝒃𝒐𝒕</h1>
 
 <p align="center">
     </p>
