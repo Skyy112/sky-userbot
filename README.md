@@ -31,6 +31,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 ✨ **THANKS YOU TO**
 *   [Kyy](https://github.com/muhammadrizky16/Kyy-Userbot)   Kyy - Userbot
+*   [![KYY](https://img.shields.io/badge/repo.kyy-white)](https://github.com/muhammadrizky16/Kyy-Userbot)
 
 BERIBU TERIMAKASIH KEPADA   [Kyy](https://github.com/muhammadrizky16/Kyy-Userbot)
 KARNA TELAH MENGIZINKAN MENGCLONE REPONYA
