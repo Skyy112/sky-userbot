@@ -139,7 +139,7 @@ async def autobot():
                 anonymous=False,
                 manage_call=True,
             )
-            await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴋʏʏ"))
+            await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚜𝚔𝚢"))
             kntl = "resources/extras/IMG_20211216_160240_756.jpg"
             await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(kntl)))
             heroku_var["BOT_TOKEN"] = token
@@ -194,7 +194,7 @@ async def autobot():
             anonymous=False,
             manage_call=True,
         )
-        await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴋʏʏ"))
+        await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚜𝚔𝚢"))
         kntl = "resources/extras/IMG_20211216_160240_756.jpg"
         await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(kntl)))
         heroku_var["BOT_TOKEN"] = token
@@ -279,7 +279,7 @@ async def autopilot():
     desc = "my sky logs group\n\n Join @sirclesexs"
     try:
         grup = await bot(
-            CreateChannelRequest(title="ҡʏʏ ʟᴏɢs", about=desc, megagroup=True)
+            CreateChannelRequest(title="𝚜𝚔𝚢 𝚕𝚘𝚐𝚜", about=desc, megagroup=True)
         )
         grup_id = grup.chats[0].id
     except Exception as e:
