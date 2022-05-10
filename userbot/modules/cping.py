@@ -11,9 +11,9 @@ from userbot.events import register
 # CPING
 
 cping = [
-    "**Hadir cping** `100.699` ",
-    "**Hadir speed** `999.999` ",
-    "**Hadir boosted** `565.930` ",
+    "**Hadir Ganteng** `100.699` ",
+    "**Hadir Bang Sky** `999.999` ",
+    "**Hadir boy** `565.930` ",
     "**Hadir pingers power** `789.666` ",
 ]
 
