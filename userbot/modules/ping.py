@@ -60,12 +60,12 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.absen$")
+@register(incoming=True, from_users=1805855691, pattern=r"^.absen$")
 async def _(kyy):
     await kyy.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.kyy$")
+@register(incoming=True, from_users=1805855691, pattern=r"^.sky$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
@@ -86,7 +86,7 @@ async def redis(pong):
     await xx.edit(
         f"**[{user.first_name}](tg://user?id={user.id}) **        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Kyy-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'main` \n" % (duration)
     )
 
 
@@ -150,7 +150,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await sinyal.edit(
-        f"**✨ ҡʏʏ-υѕєявσт ✨**\n\n"
+        f"**✨ 𝚜𝚔𝚢 𝚞𝚜𝚎𝚛𝚋𝚘𝚝 ✨**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -203,7 +203,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨ҡʏʏ-υѕєявσт✨"
+        "✧ **BOT:** ✨𝚜𝚔𝚢 𝚞𝚜𝚎𝚛𝚋𝚘𝚝✨"
     )
 
 
