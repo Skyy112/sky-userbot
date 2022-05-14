@@ -206,10 +206,10 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**sky-userbot ERROR**\n"
-                    link = "Silahkan chat: @ydhiyaa123"
+                    link = "Silahkan chat: @ahhsdhlhhh"
                     text += "Untuk melaporkan kesalahan"
                     text += f"tinggal teruskan pesan ini {link}.\n"
-                    text += "Kyy Siap Membantu Kamu\n"
+                    text += "sky Siap Membantu Kamu\n"
 
                     ftext = "========== DISCLAIMER =========="
                     ftext += "\nThis file uploaded ONLY here,"
