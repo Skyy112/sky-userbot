@@ -21,7 +21,7 @@ MSG_ON = """
 ➠ **Userbot Version -** `{}@{}`
 ➠ **Ketik** `{}ping` **untuk Mengecheck Bot**
 ━━━━━━━━━━━━━━━
-➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ :** @sirclesexs
+➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ :** @yaudahhlahhhh
 """
 
 
