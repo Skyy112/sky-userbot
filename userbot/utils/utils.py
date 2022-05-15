@@ -57,7 +57,7 @@ async def autobot():
     if who.username:
         username = who.username + "_ubot"
     else:
-        username = "kyy" + (str(who.id))[5:] + "ubot"
+        username = "sky" + (str(who.id))[5:] + "ubot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -90,7 +90,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = "kyy" + (str(who.id))[6:] + str(ran) + "ubot"
+        username = "sky" + (str(who.id))[6:] + str(ran) + "ubot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -119,7 +119,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @sirclesexs ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @yaudahhlahhhh ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -174,7 +174,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @sirclesexs ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @yaudahhlahhhh ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
@@ -276,7 +276,7 @@ def remove_plugin(shortname):
 
 async def autopilot():
     LOGS.info("TUNGGU SEBENTAR. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK ANDA")
-    desc = "my sky logs group\n\n Join @sirclesexs"
+    desc = "my sky logs group\n\n Join @yaudahhlahhhh"
     try:
         grup = await bot(
             CreateChannelRequest(title="𝚜𝚔𝚢 𝚕𝚘𝚐𝚜", about=desc, megagroup=True)
