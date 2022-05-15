@@ -30,7 +30,7 @@ async def _(event):
         await event.edit("Tidak bisa menemukan video asupan.")
 
 
-@Kyy_cmd(pattern="desahcewe$")
+@kyy_cmd(pattern="desahcewe$")
 async def _(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await edit_or_reply(
