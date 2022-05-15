@@ -14,7 +14,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/317805b62122526722fd9.jpg",
                 caption="✨ **sky userbot Has Been Actived**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 8.0@master\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @yaudahhlahhhh ",
-                buttons=[(Button.url("ꜱᴜᴘᴘᴏʀᴛ", "https://t.me/sirclesexs"),)],
+                buttons=[(Button.url("ꜱᴜᴘᴘᴏʀᴛ", "https://t.me/yaudahhlahhhh"),)],
             )
     except Exception as e:
         LOGS.error(e)
