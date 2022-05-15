@@ -5,7 +5,7 @@ from userbot.utils import edit_or_reply, kyy_cmd
 
 @kyy_cmd(pattern="lhelp$")
 async def usit(e):
-    await edit_or_reply(e,
+    await edit_or_reply(
                         f"**Halo {owner} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{cmd}help` Atau Bisa Minta Bantuan Ke:\n"
                         "\n[Telegram](t.me/yaudahhlahhhh)"
                         "\n[Repo](https://github.com/Skyy112/sky-userbot)"
