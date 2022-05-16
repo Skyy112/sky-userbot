@@ -7,7 +7,7 @@ import os
 
 import heroku3
 
-from userbot import BLACKIST_GCAST
+from userbot import BLACKLIST_GCAST
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME
 from userbot.utils import edit_delete, edit_or_reply, kyy_cmd
